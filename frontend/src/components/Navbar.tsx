@@ -1,23 +1,29 @@
 import { Link } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 import github from '../assets/github.svg';
 import linkedin from '../assets/linkedin.svg';
 
 const Navbar = () => {
+  const location = useLocation();
   return (
     <div className="fixed flex w-full bg-white bg-opacity-50 p-4 text-lg shadow-md  backdrop-blur-sm">
       <div className="flex w-3/4 items-center justify-center gap-2">
-        <Link
-          className="rounded-lg px-2 py-1 transition duration-200 hover:bg-slate-200 hover:bg-opacity-50 hover:text-sky-900 hover:shadow-md"
-          to="/"
-        >
+        <Link className={`group rounded-lg p-1`} to="/">
           Home
+          <div
+            className={`h-0.5 bg-slate-800 transition-all duration-300 group-hover:w-full group-hover:shadow-md ${
+              location.pathname === '/' ? 'w-full' : 'w-0'
+            }`}
+          ></div>
         </Link>
-        <Link
-          className="rounded-lg px-2 py-1 transition duration-200 hover:bg-slate-200 hover:bg-opacity-50 hover:text-sky-900 hover:shadow-md"
-          to="/portfolio"
-        >
+        <Link className={`group rounded-lg p-1`} to="/portfolio">
           Portfolio
+          <div
+            className={`h-0.5 bg-slate-800 transition-all duration-300 group-hover:w-full group-hover:shadow-md ${
+              location.pathname === '/portfolio' ? 'w-full' : 'w-0'
+            }`}
+          ></div>
         </Link>
       </div>
       <div className="flex w-1/4 items-center justify-center gap-3">
