@@ -42,7 +42,6 @@ const Navbar = () => {
           <img className="h-8 w-8" src={linkedin} alt="LinkedIn" />
         </Link>
       </div>
-      <hr className="bg-slate-600" />
     </div>
   );
 };
