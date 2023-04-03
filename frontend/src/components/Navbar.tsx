@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className="fixed flex w-full bg-white bg-opacity-50 p-4 text-lg shadow-md  backdrop-blur-sm">
       <div className="flex w-3/4 items-center justify-center gap-2">
         <Link className={`group rounded-lg p-1`} to="/">
-          Home
+          About
           <div
             className={`h-0.5 bg-slate-800 transition-all duration-300 group-hover:w-full group-hover:shadow-md ${
               location.pathname === '/' ? 'w-full' : 'w-0'
@@ -42,6 +42,7 @@ const Navbar = () => {
           <img className="h-8 w-8" src={linkedin} alt="LinkedIn" />
         </Link>
       </div>
+      <hr className="bg-slate-600" />
     </div>
   );
 };
