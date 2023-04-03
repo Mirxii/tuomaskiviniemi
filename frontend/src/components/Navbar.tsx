@@ -7,7 +7,7 @@ import linkedin from '../assets/linkedin.svg';
 const Navbar = () => {
   const location = useLocation();
   return (
-    <div className="fixed flex w-full bg-white bg-opacity-50 p-4 text-lg shadow-md  backdrop-blur-sm">
+    <div className="fixed z-50 flex w-full bg-white bg-opacity-50 p-4 text-lg shadow-md  backdrop-blur-sm">
       <div className="flex w-3/4 items-center justify-center gap-2">
         <Link className={`group rounded-lg p-1`} to="/">
           About
