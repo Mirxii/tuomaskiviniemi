@@ -4,10 +4,10 @@ import Education from '../components/Education';
 
 const About = () => {
   return (
-    <div className="mx-auto max-w-xl px-4 pt-28 md:max-w-6xl">
+    <div className="scroll-r mx-auto h-screen w-screen snap-y snap-mandatory overflow-y-scroll scroll-smooth px-4">
       <Bio />
-      <Experience />
       <Education />
+      <Experience />
     </div>
   );
 };
