@@ -20,7 +20,7 @@ const ProjectList = (props: projectList) => {
       {props.projects.map((project) => (
         <div
           key={project.id}
-          className="my-6 flex flex-col rounded-md bg-sky-200 bg-opacity-50 p-4 shadow-lg drop-shadow-xl md:flex-row md:space-x-12"
+          className="my-6 flex flex-col rounded-lg border-2 border-b-8 border-r-8 border-slate-800 bg-opacity-50 p-4 shadow-lg drop-shadow-xl md:flex-row md:space-x-12"
         >
           <div className="mt-2 flex justify-center rounded-md border border-slate-300 shadow-lg md:w-2/5">
             <img
