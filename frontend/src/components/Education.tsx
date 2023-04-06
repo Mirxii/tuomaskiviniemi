@@ -1,10 +1,10 @@
 const Education = () => {
   return (
-    <section className="m-auto flex h-screen max-w-xl snap-start flex-col bg-white p-12 md:max-w-6xl md:flex-row">
-      <div className="m-auto flex justify-center  md:w-1/2">
+    <section className="m-auto flex h-screen max-w-xl snap-start flex-col justify-center bg-white p-12 md:max-w-6xl md:flex-row">
+      <div className="mx-auto flex justify-center md:my-auto md:w-1/2">
         <h1 className="text-3xl font-bold">Education</h1>
       </div>
-      <div className="m-auto flex flex-col text-center md:w-3/5 md:text-left">
+      <div className="mx-auto mt-12 flex flex-col text-center md:my-auto md:w-3/5 md:text-left">
         <div className="">
           <h1 className="text-2xl font-bold">
             Bachelor of Engineering in Information Technology and Software
