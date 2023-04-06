@@ -1,6 +1,7 @@
 import Bio from '../components/Bio';
 import Experience from '../components/Experience';
 import Education from '../components/Education';
+import Contact from '../components/Contact';
 
 const About = () => {
   return (
@@ -8,6 +9,7 @@ const About = () => {
       <Bio />
       <Education />
       <Experience />
+      <Contact />
     </div>
   );
 };
