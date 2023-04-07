@@ -1,5 +1,4 @@
-import email from '../assets/email.svg';
-import phone from '../assets/phone.svg';
+import { AiOutlineMail, AiOutlinePhone } from 'react-icons/ai';
 
 const Contact = () => {
   return (
@@ -10,12 +9,13 @@ const Contact = () => {
       <div className="mx-auto mt-12 flex flex-col text-center md:my-auto md:w-3/5 md:text-left">
         <div className="">
           <h1 className="text-xl">
-            <img className="inline-block h-6 w-6" src={email} />{' '}
+            <AiOutlineMail size="36" className="mr-4 inline-block" />
             tuomas.kiviniemi@gmail.com
           </h1>
           <hr className="mx-auto my-2 h-0.5 w-5/6 bg-gradient-to-r from-slate-50 via-slate-300 to-slate-50 md:mx-0 md:from-slate-300 md:via-slate-300" />
           <h1 className="text-xl">
-            <img className="inline-block h-6 w-6" src={phone} /> +358 404 192718
+            <AiOutlinePhone size="36" className="mr-4 inline-block" />
+            +358 404 192718
           </h1>
         </div>
       </div>

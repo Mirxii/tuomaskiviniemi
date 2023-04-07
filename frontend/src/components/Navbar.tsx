@@ -1,8 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 
-import github from '../assets/github.svg';
-import linkedin from '../assets/linkedin.svg';
+import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 
 const Navbar = () => {
   const location = useLocation();
@@ -32,14 +31,14 @@ const Navbar = () => {
           to="https://github.com/Mirxii"
           target={'_blank'}
         >
-          <img className="h-8 w-8" src={github} alt="GitHub" />
+          <AiFillGithub size="36" />
         </Link>
         <Link
           className="duration-100 ease-in-out hover:-translate-y-0.5"
           to="https://www.linkedin.com/in/tuomas-kiviniemi-755572172/"
           target={'_blank'}
         >
-          <img className="h-8 w-8" src={linkedin} alt="LinkedIn" />
+          <AiFillLinkedin size="38" />
         </Link>
       </div>
     </div>

@@ -6,7 +6,7 @@ import Skills from '../components/Skills';
 
 const About = () => {
   return (
-    <div className="mx-auto h-screen w-screen snap-y snap-mandatory snap-always overflow-y-scroll scroll-smooth px-4">
+    <div className="mx-auto h-screen w-screen snap-y snap-mandatory snap-always overflow-y-scroll scroll-smooth">
       <Bio />
       <Education />
       <Experience />
