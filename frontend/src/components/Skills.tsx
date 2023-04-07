@@ -30,7 +30,7 @@ const Skills = () => {
       <div className="mx-auto flex justify-center md:my-auto md:w-1/2">
         <h1 className="text-2xl font-bold lg:text-3xl">Skills</h1>
       </div>
-      <div className="mx-auto mt-12 flex flex-col text-center md:my-auto md:w-3/5 md:text-left">
+      <div className="mx-auto mt-4 flex flex-col text-center md:my-auto md:mt-12 md:w-3/5 md:text-left">
         <div className="">
           <h1 className="lg:text-xl">Technologies</h1>
           <hr className="mx-auto my-2 h-0.5 w-5/6 bg-gradient-to-r from-slate-50 via-slate-300 to-slate-50 md:mx-0 md:from-slate-300 md:via-slate-300" />

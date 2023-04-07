@@ -4,7 +4,7 @@ const Experience = () => {
       <div className="mx-auto flex justify-center md:my-auto md:w-1/2">
         <h1 className="text-2xl font-bold md:text-3xl">Experience</h1>
       </div>
-      <div className="mx-auto mt-12 flex flex-col text-center md:my-auto md:w-3/5 md:text-left">
+      <div className="mx-auto mt-4 flex flex-col text-center md:my-auto md:mt-12 md:w-3/5 md:text-left">
         <div className="">
           <h1 className="font-bold lg:text-2xl">
             Development Project Internship
