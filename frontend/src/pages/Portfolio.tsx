@@ -12,7 +12,7 @@ const PROJECTS = [
       'Current WIP, a marketplace app for buying and selling second hand items.',
     tags: ['React', 'TypeScript', 'Node.js', 'Express', 'Prisma', 'PostgreSQL'],
     image: ' ',
-    github: 'https://github.com/Mirxii/',
+    github: 'https://github.com/Mirxii/wearywears',
   },
   {
     id: '2',
