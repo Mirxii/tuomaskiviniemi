@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="flex w-1/4 items-center justify-center gap-3">
         <Link
           className="duration-100 ease-in-out hover:-translate-y-0.5"
-          to="https://github.com/Mirxii"
+          to="https://github.com/tkiviniemi"
           target={'_blank'}
         >
           <AiFillGithub size="36" />
