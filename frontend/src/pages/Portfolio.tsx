@@ -3,6 +3,8 @@ import ProjectList from '../components/ProjectList';
 import todos_app from '../assets/todos_app.png';
 import portfolio from '../assets/portfolio.png';
 import weather_app from '../assets/weather_app.png';
+import hsl_citybikes from '../assets/hsl_citybikes.png';
+import wearywears from '../assets/wearywears.png';
 
 const PROJECTS = [
   {
@@ -19,7 +21,7 @@ const PROJECTS = [
       'PostgreSQL',
       'TailwindCSS',
     ],
-    image: ' ',
+    image: hsl_citybikes,
     github: 'https://github.com/tkiviniemi/HSL_Citybikes',
   },
   {
@@ -36,7 +38,7 @@ const PROJECTS = [
       'PostgreSQL',
       'MaterialUI',
     ],
-    image: ' ',
+    image: wearywears,
     github: 'https://github.com/tkiviniemi/wearywears',
   },
   {
